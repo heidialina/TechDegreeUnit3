@@ -130,7 +130,7 @@ button {
 	border-radius: 5px;
 	width: 100%;
 	border: 1px solid #92b9b2;
-	box-shadow: 1 -1px 3px #4f759b inset;
+	box-shadow: 0 -1px 3px #4f759b inset;
 	margin-bottom: 10px;
 	cursor: pointer;
 }
@@ -140,10 +140,18 @@ button {
 	border: none;
 }
 
+#newsletter label {
+	padding-left: 10px;
+}
+
 .news_label {
     margin-top: 20px;
 	margin-bottom: 20px;
     width: 100%;
+}
+
+.middle_hr {
+	height: 3px;
 }
 
 ::placeholder {
