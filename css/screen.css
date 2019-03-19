@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+/*
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+
+*/
+
+/*-----
+Header
+-----*/
+
+header {
+	background-color: #85c7f2;
+	color: #4c4c4c;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/*-----
+Signup
+-----*/
+
+hr {
+	max-width: 300px;
+    height: 1px;
+    background-color: #036;
+    border: none;
+}
+
+.signup {
+	color: #4c4c4c;
+	text-align: center;
+	max-width: 300px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.signup p {
+	color: #636363;
+	word-spacing: 1px;
+}
+
+.thick_hr {
+	height: 4px;
+	margin-bottom: -4px;
+}
+
+.thin_hr {
+	margin-bottom: 30px;
+}
+
+/*-----
+Body
+-----*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+form {
+	max-width: 300px;
+	margin: auto;
+	padding: 10px 20px;
+}
+
+legend {
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 12px 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+	padding: 10px 10px;
+	margin: 8px 0;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	height: auto;
+	width: 100%;
+	background: #dbdbdb;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+select:focus,
+textarea:focus {
+	background: lightblue;
+	transition: 1s;
+}
+
+select {
+	width: 100%;
+	padding: 6px;
+  	height: 42px;
+  	border-radius: 2px;
+}
+
+input[type=radio],
+input[type=checkbox]{
+	margin: 8px 0;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+}
+
+button {
+	color: #FFF;
+	background-color: #92c9b1;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0px;
+	border-radius: 5px;
+	width: 100%;
+	border: 1px solid #92b9b2;
+	box-shadow: 1 -1px 3px #4f759b inset;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+#contact,
+#newsletter {
+	border: none;
+}
+
+.news_label {
+    margin-top: 20px;
+	margin-bottom: 20px;
+    width: 100%;
+}
+
+::placeholder {
+	text-align: right;
+	font-style: italic;
+	padding-right: 10px;
+}
+
+/*-----
+Footer
+-----*/
+
+footer {
+	text-align: center;
+	color: #d1d1d1;
+}
+
+/*-----
+@media
+-----*/
+
+@media (min-width: 768px) {
+	form,
+	hr,
+	.signup {
+		max-width: 700px;
+	}
+	
+	label {
+		width: 28%;
+		display: inline-block;
+	}
+	
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	select {
+		width: 70%;
+		display: inline-block;
+	}
+}
